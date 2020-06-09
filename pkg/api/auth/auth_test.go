@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/stevennick/test/pkg/api/auth"
+	"github.com/stevennick/test/pkg/utl/mock"
+	"github.com/stevennick/test/pkg/utl/mock/mockdb"
+	"github.com/stevennick/test/pkg/utl/model"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"

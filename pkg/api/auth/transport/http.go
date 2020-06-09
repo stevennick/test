@@ -3,7 +3,7 @@ package transport
 import (
 	"net/http"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
+	"github.com/stevennick/test/pkg/api/auth"
 
 	"github.com/labstack/echo"
 )

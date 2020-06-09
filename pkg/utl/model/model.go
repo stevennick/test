@@ -1,4 +1,4 @@
-package gorsk
+package test
 
 import (
 	"time"

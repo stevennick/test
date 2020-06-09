@@ -35,24 +35,24 @@ package api
 import (
 	"crypto/sha1"
 
-	"github.com/ribice/gorsk/pkg/utl/zlog"
+	"github.com/stevennick/test/pkg/utl/zlog"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
-	al "github.com/ribice/gorsk/pkg/api/auth/logging"
-	at "github.com/ribice/gorsk/pkg/api/auth/transport"
-	"github.com/ribice/gorsk/pkg/api/password"
-	pl "github.com/ribice/gorsk/pkg/api/password/logging"
-	pt "github.com/ribice/gorsk/pkg/api/password/transport"
-	"github.com/ribice/gorsk/pkg/api/user"
-	ul "github.com/ribice/gorsk/pkg/api/user/logging"
-	ut "github.com/ribice/gorsk/pkg/api/user/transport"
+	"github.com/stevennick/test/pkg/api/auth"
+	al "github.com/stevennick/test/pkg/api/auth/logging"
+	at "github.com/stevennick/test/pkg/api/auth/transport"
+	"github.com/stevennick/test/pkg/api/password"
+	pl "github.com/stevennick/test/pkg/api/password/logging"
+	pt "github.com/stevennick/test/pkg/api/password/transport"
+	"github.com/stevennick/test/pkg/api/user"
+	ul "github.com/stevennick/test/pkg/api/user/logging"
+	ut "github.com/stevennick/test/pkg/api/user/transport"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/postgres"
-	"github.com/ribice/gorsk/pkg/utl/rbac"
-	"github.com/ribice/gorsk/pkg/utl/secure"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/stevennick/test/pkg/utl/config"
+	"github.com/stevennick/test/pkg/utl/middleware/jwt"
+	"github.com/stevennick/test/pkg/utl/postgres"
+	"github.com/stevennick/test/pkg/utl/rbac"
+	"github.com/stevennick/test/pkg/utl/secure"
+	"github.com/stevennick/test/pkg/utl/server"
 )
 
 // Start starts the API service

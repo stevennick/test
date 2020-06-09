@@ -1,4 +1,4 @@
-package gorsk
+package test
 
 // Company represents company model
 type Company struct {

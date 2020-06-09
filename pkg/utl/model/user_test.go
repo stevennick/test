@@ -1,9 +1,9 @@
-package gorsk_test
+package test_test
 
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/stevennick/test/pkg/utl/model"
 )
 
 func TestChangePassword(t *testing.T) {

@@ -1,4 +1,4 @@
-package gorsk
+package test
 
 // Success response
 // swagger:response ok
